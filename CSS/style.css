@@ -1,0 +1,256 @@
+body, h1, h2, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../Images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img{
+    width: 57%;
+    height: auto;
+}
+
+.hidden-name{
+    font-size: 1px;
+    color: #FFA500;
+}
+
+body,
+p,
+.education-card h,
+.education-card p{
+    color: #FFF;
+}
+
+header,
+.education-card,
+footer{
+    text-align: center;
+}
+
+header,
+main,
+footer{
+    padding: 1.5%;
+}
+
+footer{
+    font-size: 87.5%;
+}
+
+header{
+    font-family: 'Orbitron', sans-serif;
+}
+
+p{
+    font-size: 125%;
+}
+
+main,
+.education-card{
+    border-radius: 0.625rem;
+}
+
+main{
+    margin: 0 3%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h2,
+a{
+    color: #FFD700;
+}
+
+h2{
+    font-size: 150%;
+    border-bottom: 0.125rem solid #FFD700;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-bottom: 0.625rem;
+}
+
+a{
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: #FFA500;
+    text-decoration: underline;
+}
+
+.left-column{
+    grid-column: 1 / span 1;
+}
+
+.right-column{
+    grid-column: 2/ span 1;
+    padding-left: 1.25rem;
+}
+
+.header-text {
+    font-size: 137.5%;
+    letter-spacing: 0.1rem;
+}
+
+.education-card,
+.education-card img{
+    transition: transform 0.2s ease; 
+}
+
+.education-card img{
+    width: 100px;
+    height: auto;
+}
+
+.education-card{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.3125rem;
+    margin: 0.625rem;
+}
+
+.education-card:hover,
+main{
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 0.625rem rgb(255, 215, 0);
+}
+
+.education-card:hover{
+    transform: scale(1.05);
+    outline: 0.125rem solid rgb(255, 215, 0);
+}
+
+.education-card:hover img{
+    transform: scale(1.1);
+}
+
+.education-card h3{
+    font-size: 143.75%;
+    margin: 0.3125rem 0;;
+}
+
+.education-card p{
+    margin: 0.3125rem 0;
+}
+
+.education-card .year{
+    font-size: 112.5%;
+    color: #999;
+}
+
+.TechnicalSkills li{
+    font-size: 156.25%;
+}
+
+.TechnicalSkills img{
+    width: 25px;
+}
+
+.Contact p,
+.career-goal p,
+.TechnicalSkills li,
+.projects p,
+.hobby p{
+    padding: 0.625rem;
+    margin: 0 0.625rem;
+}
+
+#download-button{
+    font-family: 'Orbitron', sans-serif;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0 0.625rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    font-size: 125%;
+    padding: 0.7% 2%;
+    transition: background-color 0.3s, outline 0.3s, outline-offset 0.3s;
+}
+
+#download-button:hover,
+#download-button:focus{
+    outline: 2px solid #FFA500;
+    outline-offset: 4px;
+    background-color: #FFA500;
+}
+
+#download-button:active,
+#download-button:focus::after {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+@media (max-width: 767px) {
+    body{
+        background-attachment: fixed;
+    }
+
+    h2{
+        font-size: 100%;
+    }
+
+    header img{
+        width: 80%;
+    }
+
+    .Contact p,
+    .career-goal p,
+    .TechnicalSkills li,
+    .projects p,
+    .hobby p{
+        padding: 3%;
+        margin: 0 1%;
+    }
+    
+    .right-column{
+        padding-left: 3%;
+    }
+
+    .header-text {
+        font-size: 70%;
+    }
+
+    p{
+        font-size: 93%;
+    }
+    
+    .TechnicalSkills li{
+        font-size: 100%;
+    }
+    
+    .TechnicalSkills img{
+        width: 15px;
+    }
+
+    footer{
+        font-size: 60%;
+    }
+
+    #download-button {
+        font-size: 130%;
+        outline: 2px solid #FFA500;
+        outline-offset: 4px;
+        background-color: #FFA500;
+        margin-bottom: 2.5%;
+    }
+
+    #download-button:active {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
