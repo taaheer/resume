@@ -20,6 +20,39 @@ header img{
     color: #FFA500;
 }
 
+.text-reveal-animation span {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.text-reveal-animation span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: secondBlock 2s cubic-bezier(.77,0,.18,1) forwards;
+}
+
+.text-reveal-animation span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    animation: firstBlock 2s cubic-bezier(.77,0,.18,1) forwards;
+}
+
+@keyframes secondBlock {
+    0% { transform: translateX(-100%) }
+    100% { transform: translateX(101%) }
+}
+
+@keyframes firstBlock {
+    100% { transform: translateX(200%) }
+}
+
 body,
 p,
 .education-card h,
