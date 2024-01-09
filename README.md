@@ -9,4 +9,4 @@ This is the source code for my personal resume website. Please note the followin
 - The Windows logo is a trademark of Microsoft Corporation.
 - The Wikipedia Preview is provided by Wikimedia.
 
-© Taaheer 2023
+© Taaheer 2024
