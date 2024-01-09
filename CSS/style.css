@@ -189,6 +189,7 @@ main{
     outline: 2px solid #FFA500;
     outline-offset: 4px;
     background-color: #FFA500;
+    color: black;
 }
 
 #download-button:active,
