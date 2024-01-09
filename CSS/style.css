@@ -185,17 +185,17 @@ main{
     color: #999;
 }
 
-.TechnicalSkills li{
+.technical-skills li{
     font-size: 156.25%;
 }
 
-.TechnicalSkills img{
+.technical-skills img{
     width: 25px;
 }
 
 .Contact p,
 .career-goal p,
-.TechnicalSkills li,
+.technical-skills li,
 .projects p,
 .hobby p{
     padding: 0.625rem;
@@ -245,7 +245,7 @@ main{
 
     .Contact p,
     .career-goal p,
-    .TechnicalSkills li,
+    .technical-skills li,
     .projects p,
     .hobby p{
         padding: 3%;
@@ -264,11 +264,11 @@ main{
         font-size: 93%;
     }
     
-    .TechnicalSkills li{
+    .technical-skills li{
         font-size: 100%;
     }
     
-    .TechnicalSkills img{
+    .technical-skills img{
         width: 15px;
     }
 
