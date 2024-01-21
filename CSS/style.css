@@ -1,25 +1,3 @@
-body, h1, h2, p, ul, li{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-image: url(../Images/Background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header img{
-    width: 57%;
-    height: auto;
-}
-
-.hidden-name{
-    font-size: 1px;
-    color: #FFA500;
-}
-
 .text-reveal-animation span {
     position: relative;
     overflow: hidden;
@@ -61,20 +39,15 @@ p,
 }
 
 header,
-.education-card,
-footer{
+.education-card{
     text-align: center;
 }
 
 header,
-main,
-footer{
+main{
     padding: 1.5%;
 }
 
-footer{
-    font-size: 87.5%;
-}
 
 header{
     font-family: 'Orbitron', sans-serif;
@@ -95,8 +68,7 @@ main{
     grid-template-columns: repeat(2, 1fr);
 }
 
-h2,
-a{
+h2{
     color: #FFD700;
 }
 
@@ -114,17 +86,6 @@ ul{
 
 li{
     margin-bottom: 0.625rem;
-}
-
-a{
-    text-decoration: none;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-a:hover{
-    color: black;
-    text-decoration: underline;
-    box-shadow: inset 300px 0 0 0 #FFD700;;
 }
 
 .left-column{
@@ -271,10 +232,6 @@ main{
     
     .technical-skills img{
         width: 15px;
-    }
-
-    footer{
-        font-size: 60%;
     }
 
     #download-button {
